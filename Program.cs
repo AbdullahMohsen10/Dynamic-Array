@@ -16,6 +16,7 @@ namespace ConsoleApp7
             Console.WriteLine(array.a.Length);
             Console.WriteLine(array.Storagelenght());
             Console.WriteLine("####################################");
+            Console.WriteLine("####################################");
             array.print();
         }
     }
@@ -118,7 +119,7 @@ namespace ConsoleApp7
             {
                 expadstorage();
             }
-            int segl = Lastindexitem - index + 1;
+            int segl = Lastindexitem - index + 1; //2 
             Array.Copy(a, index, a, index + 1, segl);
             Lastindexitem++;
             a[index] = item;
